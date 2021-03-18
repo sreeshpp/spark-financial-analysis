@@ -5,7 +5,7 @@ node{
         cleanWs()
         git(
         url: 'git@github.com:sreeshpp/spark-financial-analysis.git',
-        credentialsId: '40fcc00956465460ebc72f6bf220c6b4c6bbe7d7',
+        credentialsId: 'sreeshpp',
         branch: 'master'
         )
     }
