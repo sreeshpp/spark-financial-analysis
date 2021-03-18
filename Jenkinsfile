@@ -4,8 +4,8 @@ node{
     stage('Prepare'){
         cleanWs()
         git(
-        url: 'git@github.com:asardana/spark-financial-analysis.git',
-        credentialsId: '8af17cba-4867-4f7d-be22-ea4f1bb16591',
+        url: 'git@github.com:sreeshpp/spark-financial-analysis.git',
+        credentialsId: '40fcc00956465460ebc72f6bf220c6b4c6bbe7d7',
         branch: 'master'
         )
     }
