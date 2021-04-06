@@ -36,5 +36,7 @@ jar{
     attributes 'Main-Class': 'com.financial.analysis.spark.SparkFinancialAnalysisMain'
     }
 }
-
+shadowJar {
+    zip64 true
+}
 
